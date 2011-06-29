@@ -1,0 +1,7 @@
+Q: How many tokens are there in the following statement?
+
+answer=(3*q-p*p)/3;
+
+answers = ( 3 * q - p * p ) / 3;
+
+A: 13 tokens
