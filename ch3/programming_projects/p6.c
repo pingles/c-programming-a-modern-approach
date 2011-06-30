@@ -14,3 +14,7 @@ int main(void)
   
   return 0;
 }
+
+// $ ./p6
+// Enter two fractions separated by a plus sign: 5/6+3/4
+// The sum is: 38/24
