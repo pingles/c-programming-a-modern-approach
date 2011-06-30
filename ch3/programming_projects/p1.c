@@ -11,3 +11,7 @@ int main(void)
   
   return 0;
 }
+
+// $ ./p1 
+// Enter a date (mm/dd/yyyy): 2/17/2011
+// You entered the date 20110217
