@@ -1,0 +1,10 @@
+If i and j are positive integers, does (-i)/j always have the same
+value as -(i/j)? Justify your answer.
+
+Yes.
+
+i       j       (-i)/j  -(i/j)
+10      5       -2      -2
+-10     5       2       2
+10      -5      2       2
+
