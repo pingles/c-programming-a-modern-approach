@@ -1,0 +1,18 @@
+What is the value of each of the following expressions in C99? (Give
+all possible values if an expression may have more than one value.)
+
+a) 8 / 5
+b) -8 / 5
+c) 8 / -5
+d) -8 / -5
+
+--
+
+In C99 ... the result of a division is always truncated toward zero
+(so -9 / 7 has the value -1) and the value of i % j has the same sign
+as i (hence the value of -9 % 7 is -2).
+
+a) 1
+b) -1
+c) -1
+d) 1
