@@ -1,0 +1,12 @@
+For each of the following character escapes, give the equivalent octal
+escape. Assume the character set to be ASCII.
+
+a) \b
+b) \n
+c) \r
+d) \t
+
+a) 0007
+b) 0012
+c) 0015
+d) 0011
