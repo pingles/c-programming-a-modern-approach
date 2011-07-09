@@ -1,0 +1,20 @@
+For each of the following items, identify one of the types char
+short, int, or long is the smallest one guaranteed to be large
+enough to store the item
+
+a) Days in a month
+b) Days in a year
+c) Minutes in a day
+d) Seconds in a day
+
+a) 31
+b) 365
+c) 1440
+d) 86400
+
+Assuming a 64-bit CPU
+
+a) char
+b) unsigned char (if available), or, short int
+c) short int
+d) int
