@@ -1,0 +1,12 @@
+For each of the following character escapes, give the equivalent hex
+escape. Assume the character set to be ASCII.
+
+a) \b
+b) \n
+c) \r
+d) \t
+
+a) 0x07
+b) 0x0a
+c) 0x0d
+d) 0x09
