@@ -1,0 +1,6 @@
+Suppose that i is a variable of type int, f is a variable of type
+float, and d is a variable of type double. What is the type of the
+expression i * f / d?
+
+Answer: i * f will result in int being promoted to a float. float *
+float / double. Expression will be of type double.
