@@ -1,0 +1,5 @@
+Which one of the following statements is not equivalent to the other two (assuming the loop bodies are the same).
+
+C.
+
+C behaves differently as do statements evaluate the condition after the first body expression. Both for and while check conditions before evaluation the statement.
