@@ -1,0 +1,9 @@
+Which one of the following is not equivalent to the other two
+(assuming the loop bodies are the same).
+
+Answer is: B.
+
+Behaviour of postfix/prefix increment. In C) it will increment i, and
+use i's original value in the expression giving A and C equivalent
+behaviour.
+
