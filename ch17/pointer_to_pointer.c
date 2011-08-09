@@ -1,4 +1,10 @@
-/* Quick example to show use of pointers-to-pointers */
+/* Quick example to show use of pointers-to-pointers:
+   Pointers are also passed by value, so modifying a pointer parameter will
+   have no effect outside the scope of the call.
+   To be able to change where a pointer points to it's therefore necessary
+   for an extra level of indirection: you change the value of a pointer which
+   happens to be another pointer.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,6 +14,10 @@ typedef struct {
   void *next;
 } node_t;
 
+/*
+  Adds a node to list, modifies the list pointer to point to
+  the new head of the list.
+*/
 void
 add_to_list(node_t **list, int n)
 {
