@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 typedef struct {
   int len;
@@ -9,14 +10,9 @@ typedef struct {
 vstring_t*
 create_vstring(int len, const char* s)
 {
-  int i;
-  
   vstring_t *vstr = malloc(sizeof(vstring_t) + len);
 
-  for (i = 0; s[i] != '\0'; i++) {
-    vstr->chars[i] = s[i];
-  }
-  
+  strncpy(vstr->chars, s, len);
   vstr->len = len;
 
   return vstr;
